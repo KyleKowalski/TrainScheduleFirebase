@@ -1,0 +1,74 @@
+* {
+
+}
+
+html {
+	height:100%;
+}
+
+body {
+	/*background-image: url("../images/background.jpg");*/
+	/*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/background.jpg");*/
+	background-size:cover;
+	/*color:white;*/
+	/*color:rgba(255, 255, 255, 1);*/
+}
+
+.mc-answer {
+	margin:10px;
+	border:2px solid white;
+	border-radius: 5px;
+}
+
+.clear-both {
+	clear:both;
+}
+
+.form-control {
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+}
+
+.big-checkbox {
+	width: 20px; 
+	height: 20px;
+}
+
+.relative {
+	position:relative;
+	padding:0;
+	width:100%;
+	padding:5%;
+	min-height:100%;
+} 
+
+.absolute {
+	position:absolute;
+	top:5%;
+	left:5%;
+	vertical-align: middle;
+	padding:0;
+	z-index:2;
+	background-color: rgba(175, 175, 175, 1);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:black;
+	width:90%;
+	height:90%;
+}
+
+.absoluteForTeams {
+	position:absolute;
+	top:10%;
+	left:10%;
+	vertical-align: middle;
+	padding:0;
+	z-index:2;
+	background-color: rgba(125, 125, 125, 1);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:black;
+	width:80%;
+	height:80%;
+}
